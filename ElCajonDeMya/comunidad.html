@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comunidad</title>
+    <link rel="stylesheet" href="./css/estiloComunidad.css">
+</head>
+<body>
+    <div class="form-container">
+        <h1>Eres parte de nuestra comunidad</h1>
+        <h3>Tus datos son muy importantes</h3>
+        <form id="clienteForm">
+            <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="telefono">Número de Teléfono:</label>
+                <input type="tel" id="telefono" required>
+            </div>
+            <div class="form-group">
+                <label for="telefono">Direccion:</label>
+                <input type="dir" id="direccion" required>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+        <div id="resultado" class="resultado"></div>
+    </div>
+
+    <script src="../ElCajonDeMya/js/com.js"></script>
+</body>
+</html>
